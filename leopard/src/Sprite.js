@@ -622,7 +622,7 @@ export class Stage extends SpriteBase {
     // Changing the width and height of the stage after initialization isn't supported.
     Object.defineProperties(this, {
       width: {
-        value: initialConditions.width || 480,
+        value: initialConditions.width || 640,
         enumerable: true
       },
       height: {
