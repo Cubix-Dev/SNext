@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../dist/index.min.css" />
+  </head>
+  <body>
+    <button id="greenFlag">Green Flag</button>
+    <div id="project"></div>
+
+    <script type="module">
+      import project from "./index.js";
+
+      project.attach("#project");
+
+      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.greenFlag();
+      });
+
+      window.project = project;
+
+      // Autoplay
+      project.greenFlag();
+    </script>
+  </body>
+</html>
