@@ -27,7 +27,11 @@ You can apply for launch title status *right now!* Just head to [this link](http
 ## Credits
 
 ShipmasterKyle - Creator of ScratchNext
+
 Mystic - Developer (helped set up the servers and the website)
+
 BlueFalconHD - Developer (front-end)
+
 TeleKiwi - Developer (back-end)
+
 and all our wonderful game devs!
