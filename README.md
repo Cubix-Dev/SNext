@@ -26,9 +26,9 @@ You can apply for launch title status *right now!* Just head to [this link](http
 
 ## Credits
 
-ShipmasterKyle - Creator of ScratchNext
+ShipmasterKyle - Creator of ScratchNext (front-end)
 
-Mystic - Developer (helped set up the servers and the website)
+Mystic - Developer (Web Developer)
 
 BlueFalconHD - Developer (front-end)
 
