@@ -7,7 +7,7 @@ function grabVersionInfo(gameName) {
 async function convToJS(fileURL, fileName) {
     console.log("Converting project....");
 
-    const { Project } = require("../sb-edit");
+    const { Project } = require("sb-edit");
     const fs = require("fs");
     const path = require("path");
 

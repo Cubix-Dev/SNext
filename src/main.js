@@ -45,7 +45,7 @@ function convToJS(fileURL, fileName) {
             switch (_a.label) {
                 case 0:
                     console.log("Converting project....");
-                    Project = require("../sb-edit").Project;
+                    Project = require("sb-edit").Project;
                     fs = require("fs");
                     path = require("path");
                     file = fs.readFileSync(path.join(fileURL, fileName));
