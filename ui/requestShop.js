@@ -12,7 +12,6 @@ const options = {
 }
 
 
-document.getElementById("Connect")
 
 app.post('/your_path', upload.array(), function (req, res, next) {
   // req.files is array of uploaded files
