@@ -2,7 +2,10 @@
 
 <head>
     <title>ScratchNext BIOS UI</title>
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
+    <!-- W3 stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <script src="requestShop.js"></script>
 
     <style>
         .topbar {
@@ -146,7 +149,7 @@
         <div id="TOPBAR" class="topbar">
             <div id="PROFILE" class="profile">
                 <img src="https://www.w3schools.com/howto/img_avatar.png" style="border-radius: 50%; width: 25px; height: 25px;" onclick="userFlyout();">
-                <img src="./1x/baseline_notifications_black_24dp.png" onclick="notificationFlyout()" class="notificationicon">
+                <img src="/1x/baseline_notifications_black_24dp.png" onclick="notificationFlyout()" class="notificationicon">
                 <div class="notificationbadge">
 
                 </div>
@@ -166,5 +169,51 @@
 
         </div>
     </div>
+    <!--Main Menu-->
+    <div class="w3-row w3-padding-64 ws-black">
+        <!--<h2 style="font-size:40px;font-weight:700;text-align:center;margin-bottom:40px;">More Tutorials</h2>-->
+      
+        <div style="max-width:1400px;margin:auto">
+          <div class="w3-col l6 w3-center" style="padding:2% 3%;">
+            <div class="w3-card-2 w3-round" style="color:black;background-color:#FFC0C7;padding:24px">
+              <h2 style="font-size:45px;font-weight:700">Shop</h2>
+              <div style="height:70px;">
+                <h5 class="w3-text-dark-grey">Get Games. Play Now.</h5>
+              </div>
+              <a id="Connect" class="w3-button tut-button black-color w3-margin-bottom" data-jzz-gui-player="true">Learn PHP</a>
+            </div>
+      
+          </div>
+          <div class="w3-col l6 w3-center" style="padding:2% 3%;">
+            <div class="w3-card-2 w3-round" style="background-color: #FFF4A3;color:black;padding:24px">
+              <h2 style="font-size:45px;font-weight:700">Games</h2>
+              <div style="height:70px;">
+                <h5 class="w3-text-dark-grey">Open a game.</h5>
+              </div>
+              <a href="games.html" class="w3-button tut-button black-color w3-margin-bottom" data-jzz-gui-player="true">Learn jQuery</a>
+            </div>
+          </div>
+      
+          <div class="w3-col l6 w3-center" style="padding:2% 3%;">
+            <div class="w3-card-2 w3-round" style="color:black;background-color:#F3ECEA;padding:24px">
+              <h2 style="font-size:45px;font-weight:700">Options</h2>
+              <div style="height:70px;">
+                <h5 class="w3-text-dark-grey">Change the settings.</h5>
+              </div>
+              <a href="/java/default.asp" class="w3-button tut-button black-color w3-margin-bottom" data-jzz-gui-player="true">Learn Java</a>
+            </div>
+          </div>
+      
+          <div class="w3-col l6 w3-center" style="padding:2% 3%;">
+            <div class="w3-card-2 w3-round" style="color:black;background-color:#D9EEE1;padding:24px">
+              <h2 style="font-size:45px;font-weight:700">Files</h2>
+              <div style="height:70px;">
+                <h5 class="w3-text-dark-grey">Edit the files on your system.</h5>
+              </div>
+              <a href="/cpp/default.asp" class="w3-button tut-button black-color w3-margin-bottom" data-jzz-gui-player="true">Learn C++</a>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
