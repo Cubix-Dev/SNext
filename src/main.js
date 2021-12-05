@@ -7,13 +7,12 @@ function grabVersionInfo(gameName) {
     if (latestVerNumber > gameInfo[1]) {
         console.log("Game version number outdated!");
         // TODO: add auto-updating
+    } else {
+        return;
     }
-    return;
     
 }
 
 // TODO: add system to grab game files from server
 
 grabVersionInfo("LemonAttack;27.sb3");
-
-
