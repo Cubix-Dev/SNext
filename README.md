@@ -5,7 +5,7 @@ An open-source Scratch console.
 
 ## Tell me more, please!
 
-As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games or apps and play them offline or online through a little UI magic and sb-edit, a JavaScript project that can convert .sb3 files to .js!
+As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games or apps and play them offline or online through a little UI magic and our inhouse compiler, Vroom!
 
 ## What do I need to run SNext?
 
@@ -15,7 +15,7 @@ SNext is now an ElectronJS executable, so that means all the dependencies come p
 
 Well, not quite. First of all, SNext isn't an editor.. We don't have custom firmware to make games with, so you'll have to live with boring old [Turbowarp](https://turbowarp.org) for now. Second, this is a console. Not an *emulator*, a *console*. We have our own system, with our own code, that has its own features. Also, does TurboWarp have a custom server running to host games? Ok, maybe they do, but it isn't as cool as ours!
 
-## Wow this sounds fun! How do I add my game to the console?
+## Wow, this sounds fun! How do I add my game to the console?
 
 You can apply for launch title status *right now!* Just head to [this link](https://forms.gle/Rbt1ELbr8HPgEh2q9). You can also join our Discord, [here](https://discord.gg/mqGKmRw9MY).
 
