@@ -1,8 +1,8 @@
 let currentFlyout = '';
 let flyoutOpened = false;
 document.onload = function() {
-var fly1 = document.getElementById('fly1');
-var fly2 = document.getElementById('fly2');
+    var fly1 = document.getElementById('fly1');
+    var fly2 = document.getElementById('fly2');
 }
 
 
