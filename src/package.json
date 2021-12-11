@@ -1,5 +1,11 @@
 {
-  "devDependencies": {
-    "@types/node": "^16.11.10"
-  }
+  "name": "snext",
+  "version": "0.1.0",
+  "description": "A console for playing Scratch games, built on Node.js!",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Cube-Enix",
+  "license": "MIT"
 }

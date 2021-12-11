@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ScratchNext BIOS UI</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div id="TOPBAR" class="topbar">
+            <div id="PROFILE" class="profile">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" style="border-radius: 50%; width: 25px; height: 25px;" onclick="userFlyout();">
+                <img src="./1x/baseline_notifications_black_24dp.png" onclick="notificationFlyout()" class="notificationicon">
+                <div class="notificationbadge">
+
+                </div>
+            </div>
+
+            <div class="timedisplay" style="font-family: 'Segoe UI Italic'; ">
+                <p>9:30 AM</p>
+            </div>
+        </div>
+        <div class="flyout flyout-margin" id="fly1">
+            <h4 style="font-weight: 400;" class="segoeui">Notifications</h4>
+
+        </div>
+
+        <div class="flyout2 flyout-margin-2" id="fly2">
+            <h4 style="font-weight: 400;" class="segoeui">User</h4>
+
+        </div>
+    </div>
+</body>
+
