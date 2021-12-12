@@ -1,8 +1,8 @@
 let currentFlyout = '';
 let flyoutOpened = false;
 document.onload = function() {
-    var fly1 = document.getElementById('fly1');
-    var fly2 = document.getElementById('fly2');
+var fly1 = document.getElementById('fly1');
+var fly2 = document.getElementById('fly2');
 }
 
 
@@ -39,3 +39,16 @@ function userFlyout() {
         currentFlyout = '';
     }
 }
+
+
+function getTime() {
+    var time = new Date();
+    var time = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+    return time;
+    
+}
+
+setInterval(() => {
+    let time = getTime();
+    document.getElementById('time').innerHTML = time;
+}, 100);
