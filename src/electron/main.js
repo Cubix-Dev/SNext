@@ -6,7 +6,7 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600, 
-    frame: true, // only enable when debugging please
+    frame: false, // only enable when debugging please
     backgroundColor: '#FFF',
     webPreferences: {
         nodeIntegration: true
