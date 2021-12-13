@@ -7,6 +7,10 @@ const createWindow = () => {
     width: 800,
     height: 600, 
     frame: false // hides annoying debug stuff
+    backgroundColor: '#FFF',
+    webPreferences: {
+        nodeIntegration: true
+    }
   })
 
   win.loadFile('ui/index.html')
