@@ -1,5 +1,4 @@
 /* all of this is just boilerplate to get electron working, no touchy please */
-/* sorry i touchy, i added requirements for a titlebar (line 11-14) */
 
 const { app, BrowserWindow } = require('electron');
 
@@ -7,14 +6,14 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600, 
-    frame: false // hides annoying debug stuff
+    frame: true, // only enable when debugging please
     backgroundColor: '#FFF',
     webPreferences: {
         nodeIntegration: true
     }
   })
 
-  win.loadFile('ui/index.html')
+  win.loadFile('ui/main.html')
 }
 
 // when this promise is resolved (which should be kinda fast), the window will open.

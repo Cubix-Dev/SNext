@@ -41,14 +41,14 @@ function userFlyout() {
 }
 
 
-function getTime() {
+function getTime(twelveHrClock) {
     var time = new Date();
-    var time = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+    var time = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: twelveHrClock })
     return time;
     
 }
 
 setInterval(() => {
-    let time = getTime();
+    let time = getTime(true);
     document.getElementById('time').innerHTML = time;
 }, 100);
