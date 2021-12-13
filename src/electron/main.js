@@ -1,4 +1,5 @@
 /* all of this is just boilerplate to get electron working, no touchy please */
+/* sorry i touchy, i added requirements for a titlebar (line 11-14) */
 
 const { app, BrowserWindow } = require('electron');
 
