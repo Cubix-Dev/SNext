@@ -6,12 +6,13 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600, 
-    frame: false, // only enable when debugging please
     backgroundColor: '#FFF',
     webPreferences: {
         nodeIntegration: true
     }
   })
+
+  win.setMenuBarVisibility(false) // hides menu bar but not the exit/minimize buttons
 
   win.loadFile('ui/main.html')
 }
