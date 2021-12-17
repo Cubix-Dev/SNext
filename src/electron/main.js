@@ -7,6 +7,7 @@ const createWindow = () => {
     width: 800,
     height: 600, 
     backgroundColor: '#FFF',
+    icon:'ui/icons/appicon.png',
     webPreferences: {
         nodeIntegration: true
     }
