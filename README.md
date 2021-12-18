@@ -2,6 +2,7 @@
 # SNext
 
 An open-source Scratch console.
+[![Discord](https://img.shields.io/discord/839159549260333117?label=SNext&logo=SNext&style=plastic)](https://discord.gg/XU4zK5jjMc)
 
 ## Tell me more, please!
 
