@@ -1,3 +1,3 @@
 cd ./src;
-node install;
+npm install;
 npm start;
