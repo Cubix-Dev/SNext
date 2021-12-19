@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <link rel="stylesheet" href="style.css" />
+	<script src="./mainui.js"></script>
+
+  </head>
+  <body>
+
+    <header id="titlebar" style="background-color: rgba(50,63,71,255);">
+      <div id="drag-region">
+
+        
+
+  
+          <div class="timedisplay" style="font-family: 'Segoe UI Italic'; ">
+              <p id="time">9:30 AM</p>
+          </div>
+
+          <div id="window-controls">
+
+            <div class="button" id="min-button">
+              <img class="icon" srcset="icons/min-w-10.png 1x, icons/min-w-12.png 1.25x, icons/min-w-15.png 1.5x, icons/min-w-15.png 1.75x, icons/min-w-20.png 2x, icons/min-w-20.png 2.25x, icons/min-w-24.png 2.5x, icons/min-w-30.png 3x, icons/min-w-30.png 3.5x" draggable="false" />
+            </div>
+            <div class="button" id="max-button">
+              <img class="icon" srcset="icons/max-w-10.png 1x, icons/max-w-12.png 1.25x, icons/max-w-15.png 1.5x, icons/max-w-15.png 1.75x, icons/max-w-20.png 2x, icons/max-w-20.png 2.25x, icons/max-w-24.png 2.5x, icons/max-w-30.png 3x, icons/max-w-30.png 3.5x" draggable="false" />
+            </div>
+            <div class="button" id="restore-button">
+              <img class="icon" srcset="icons/restore-w-10.png 1x, icons/restore-w-12.png 1.25x, icons/restore-w-15.png 1.5x, icons/restore-w-15.png 1.75x, icons/restore-w-20.png 2x, icons/restore-w-20.png 2.25x, icons/restore-w-24.png 2.5x, icons/restore-w-30.png 3x, icons/restore-w-30.png 3.5x" draggable="false" />
+            </div>
+            <div class="button" id="close-button">
+              <img class="icon" srcset="icons/close-w-10.png 1x, icons/close-w-12.png 1.25x, icons/close-w-15.png 1.5x, icons/close-w-15.png 1.75x, icons/close-w-20.png 2x, icons/close-w-20.png 2.25x, icons/close-w-24.png 2.5x, icons/close-w-30.png 3x, icons/close-w-30.png 3.5x" draggable="false" />
+            </div>
+      
+          </div>
+          
+
+      </div>
+
+
+      </div>
+    </header>
+
+    <div id="main">
+
+
+      <div id="sidebar" class="sidebar">
+        <div id="PROFILE" class="profile">
+          <img src="https://www.w3schools.com/howto/img_avatar.png" style="border-radius: 50%; width: 25px; height: 25px;" onclick="userFlyout();">
+          <img src="./1x/baseline_notifications_black_24dp.png" onclick="notificationFlyout()" class="notificationicon">
+        </div>
+
+        <!--
+          <div class="notificationbadge">
+
+        </div>
+        -->
+        
+        
+      </div>
+
+
+
+      <div class="flyout" id="fly1" style="margin-left: -300px;">
+        <h4 style="font-weight: 400;" class="segoeui">Notifications</h4>
+      </div>
+
+      <div class="flyout2" id="fly2" style="margin-left: -300px;">
+        <h4 style="font-weight: 400;" class="segoeui">User</h4>
+      </div>
+      
+
+    <div id="games" style="display: inline; height: 175px; float: right;">
+        <div id="game" style="width: 150px; height: 175px; display: inline-block;" data-number="1">
+            <img src="https://cdn.discordapp.com/attachments/912067668608159764/918965110549123092/unknown.png" style="width: 150px; height: 150px;" id="gameIcon">
+            
+            <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game</p>
+        </div>
+
+        <div id="game" style="width: 150px; height: 175px; display: inline-block; margin-left: 20px;" data-number="2">
+            <img src="https://cdn.discordapp.com/attachments/912067668608159764/918965110549123092/unknown.png" style="width: 150px; height: 150px;" id="gameIcon">
+            
+            <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game 2</p>
+        </div>
+
+        <div id="game" style="width: 150px; height: 175px; display: inline-block; margin-left: 20px;" data-number="3">
+            <img src="https://cdn.discordapp.com/attachments/912067668608159764/918965110549123092/unknown.png" style="width: 150px; height: 150px;" id="gameIcon">
+            
+            <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game 3</p>
+        </div>
+
+        <div id="game" style="width: 150px; height: 175px; display: inline-block; margin-left: 20px;" data-number="4">
+            <img src="https://cdn.discordapp.com/attachments/912067668608159764/918965110549123092/unknown.png" style="width: 150px; height: 150px;" id="gameIcon">
+            
+            <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game 4</p>
+        </div>
+
+        <div id="game" style="width: 150px; height: 175px; display: inline-block; margin-left: 20px;" data-number="5">
+            <img src="https://cdn.discordapp.com/attachments/912067668608159764/918965110549123092/unknown.png" style="width: 150px; height: 150px;" id="gameIcon">
+            
+            <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game 5</p>
+        </div>
+        
+    </div>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+
+
+  </body>
+</html>
