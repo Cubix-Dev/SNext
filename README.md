@@ -44,4 +44,6 @@ BlueFalconHD - Developer (front-end)
 
 TeleKiwi - Developer (back-end)
 
+Kaylerr - Developer (extensions)
+
 and all our wonderful game devs!
