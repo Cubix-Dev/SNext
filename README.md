@@ -28,10 +28,14 @@ You can apply for launch title status *right now!* Just head to [this link](http
 
 ### BUILDING SNEXT (this might take a while)
 
-  Windows:
-  navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
-   Linux:
-   navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
+#### Windows
+
+  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
+  
+#### Linux
+
+  Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
+
    
 ### HOSTING SNEXT (much faster but only meant for temporary changes)
 
@@ -52,3 +56,11 @@ TeleKiwi - Developer (back-end)
 Kaylerr - Developer (extensions)
 
 and all our wonderful game devs!
+
+## Support
+
+If you have any issues with using SNext or simply need assistance, please either;
+
+- Make a GitHub issue. Please provide screenshots of error messages if possible, or go as in depth as possible.
+- Join the [Discord](https://discord.gg/mqGKmRw9MY) and make a ticket in the #tickets channel.
+  - If the ticket bot is down, ping a Firmware dev (they have a magentaish color name) with your issue.
