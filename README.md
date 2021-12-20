@@ -23,14 +23,19 @@ You can apply for launch title status *right now!* Just head to [this link](http
 
 ## Installation
 
-Until the .exe releases, you'll have to build manually.
-
 1. Download the files.
 2. Make sure you have both [Node.js](https://nodejs.org/en/download/), [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and [Electron](https://www.electronjs.org/docs/latest/tutorial/quick-start) ready.
-3. Windows:
+
+### BUILDING SNEXT (this might take a while)
+
+  Windows:
   navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
    Linux:
    navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
+   
+### HOSTING SNEXT (much faster but only meant for temporary changes)
+
+Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
 
 Please note that you'll get an error, stating that there were no files to run. **THIS IS INTENDED BEHAVIOUR. DO NOT REPORT THIS AS A BUG. SNEXT  WILL STILL COMPILE SUCCESSFULLY.**
 
