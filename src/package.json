@@ -1,0 +1,15 @@
+{
+  "name": "snext",
+  "version": "1.0.0",
+  "description": "A scratch based console.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "author": "Cube-Enix",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.4.0"
+  }
+}
