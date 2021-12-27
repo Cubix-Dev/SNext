@@ -9,6 +9,7 @@ const win = remote.getCurrentWindow(); /* Note this is different to the html glo
 document.onreadystatechange = (event) => {
     if (document.readyState == "complete") {
         handleWindowControls();
+        handleGameLoading();
 
 
     }
@@ -52,3 +53,11 @@ function handleWindowControls() {
         }
     }
 }
+
+function handleGameLoading() {
+    // Load a game when it is clicked. For now, no games are on S-Next, so we have to use a test project.
+    document.getElementById('game').addEventListener("click", event => {
+        win.loadFile("../testgame/Lemon Attack.html");
+    })
+}
+
