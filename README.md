@@ -3,7 +3,9 @@
 
 An open-source Scratch console.
 
-[![Discord](https://img.shields.io/discord/839159549260333117?label=SNext&logo=SNext&style=plastic)](https://discord.gg/XU4zK5jjMc)
+[![Discord](https://img.shields.io/discord/839159549260333117?color=7289da&label=SNext&logo=Snext)](https://discord.gg/XU4zK5jjMc)
+![GitHub last commit](https://img.shields.io/github/last-commit/cube-enix/snext)
+![GitHub issues](https://img.shields.io/github/issues/cube-enix/snext)
 
 ## Tell me more, please!
 
