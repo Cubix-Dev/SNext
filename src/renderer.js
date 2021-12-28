@@ -2,7 +2,6 @@
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
 const remote = require('electron').remote;
-const dl = require('./gamedownloader.js');
 
 const win = remote.getCurrentWindow(); /* Note this is different to the html global `window` variable */
 
@@ -57,8 +56,26 @@ function handleWindowControls() {
 
 function handleGameLoading() {
     // Load a game when it is clicked. For now, no games are on S-Next, so we have to use a test project.
-    document.getElementById('game').addEventListener("click", event => {
-        win.loadFile('testgame/LOCAL Lemon Attack.html');
+    document.getElementById('gameIcon').addEventListener("click", event => {
+        
+        const fs = require("fs");
+
+        function downloadGame() {
+            const https = require("https");
+            
+
+            const file = fs.createWriteStream("../testgame/Lemon Attack.html");
+            const request = https.get("https://drive.google.com/uc?export=download&id=1eQ8QBtaIBmHDS6PzQWfF6KdR9E9yrVte", function(response) {
+                response.pipe(file);
+            })
+        } 
+        
+        if(fs.existsSync("../testgame/Lemon Attack.html")) {
+            win.loadFile("../testgame/Lemon Attack.html");
+        } else {
+            downloadGame();
+        }
+
     })
 }
 
