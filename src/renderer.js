@@ -56,9 +56,8 @@ function handleWindowControls() {
 
 function handleGameLoading() {
     // Load a game when it is clicked. Games will be stored on a Google Drive.
-    document.getElementById('gameIcon').addEventListener("click", event => {
-        
-        const fs = require("fs");
+    document.getElementById('gameIcon1').addEventListener("click", event => {
+    
 
         /* function downloadGame() {
             const https = require("https");
