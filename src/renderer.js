@@ -55,17 +55,17 @@ function handleWindowControls() {
 }
 
 function handleGameLoading() {
-    // Load a game when it is clicked. For now, no games are on S-Next, so we have to use a test project.
+    // Load a game when it is clicked. Games will be stored on a Google Drive.
     document.getElementById('gameIcon').addEventListener("click", event => {
         
         const fs = require("fs");
 
-        function downloadGame() {
+        /* function downloadGame() {
             const https = require("https");
             
 
             const file = fs.createWriteStream("../testgame/Lemon Attack.html");
-            const request = https.get("https://drive.google.com/uc?export=download&id=1eQ8QBtaIBmHDS6PzQWfF6KdR9E9yrVte", function(response) {
+            const request = https.get("https://replit.com/@Simple21/SNext-GameBase#games/Lemon%20Attack.html", function(response) {
                 response.pipe(file);
             })
         } 
@@ -74,7 +74,10 @@ function handleGameLoading() {
             win.loadFile("../testgame/Lemon Attack.html");
         } else {
             downloadGame();
-        }
+        } */
+
+        // temp 
+        win.loadFile("../testgame/LOCAL Lemon Attack.html");
 
     })
 }
