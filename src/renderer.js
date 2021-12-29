@@ -77,7 +77,7 @@ function handleGameLoading() {
         } */
 
         // temp 
-        win.loadFile("../testgame/LOCAL Lemon Attack.html");
+        win.loadURL("https://lemon-attack.telekiwi.repl.co");
 
     })
 }
