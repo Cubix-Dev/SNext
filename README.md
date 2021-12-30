@@ -31,6 +31,7 @@ You can apply for launch title status *right now!* Just head to [this link](http
 4. (WINDOWS ONLY)  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
 4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
+**(Note: The Linux Build is relativly buggy. For best performance ~~grab a glass and~~ use Wine for now.)**
 
 Please note that you'll get an error, stating that there were no files to run. **THIS IS INTENDED BEHAVIOUR. DO NOT REPORT THIS AS A BUG. SNEXT  WILL STILL COMPILE SUCCESSFULLY.**
 

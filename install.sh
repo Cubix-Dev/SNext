@@ -1,4 +1,3 @@
-# Hopefully this works.
 # Install Node Modules
 echo "Installing..."
 cd ./src
