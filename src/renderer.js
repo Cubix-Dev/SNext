@@ -76,7 +76,7 @@ function handleGameLoading() {
         } */
 
         // temp 
-        win.loadURL("https://snext-games.simple21.repl.co/LemonAttack.html");
+        win.loadURL("https://snext-games.simple21.repl.co/games/LemonAttack.html");
 
     })
 }
