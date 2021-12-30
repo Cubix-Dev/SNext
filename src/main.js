@@ -8,7 +8,7 @@ let mainWindow;
 function createWindow () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 800,
+        width: 1000,
         height: 600,
         frame: false,
         backgroundColor: '#FFF',
@@ -33,6 +33,7 @@ function createWindow () {
         // when you should delete the corresponding element.
         mainWindow = null;
     });
+
 }
 
 // This method will be called when Electron has finished
