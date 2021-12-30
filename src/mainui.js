@@ -5,6 +5,12 @@ var fly1 = document.getElementById('fly1');
 var fly2 = document.getElementById('fly2');
 }
 
+function SetUsername() {
+    var val = Math.floor(1000 + Math.random() * 9000);
+    let username = "[Early Development] Player " + val;
+    alert("Your username is: " + username);
+}
+
 
 function notificationFlyout() {
     if (currentFlyout === 'user') {
@@ -42,13 +48,13 @@ function userFlyout() {
         flyoutOpened = true;
         console.log('flyoutOpened: ' + flyoutOpened);
         currentFlyout = 'user';
+        SetUsername();
     } else {
         fly2.setAttribute('style', 'margin-left: -300px;');
         flyoutOpened = false;
         console.log('flyoutOpened: ' + flyoutOpened);
         currentFlyout = '';
     }
-
     return(currentFlyout);
 }
 
