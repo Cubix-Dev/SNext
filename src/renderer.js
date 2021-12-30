@@ -76,9 +76,7 @@ function handleGameLoading() {
         } */
 
         // temp 
-        win.loadURL("https://snext-games.simple21.repl.co/games/LemonAttack.html");
+        win.loadURL("https://lemon-attack.telekiwi.repl.co");
 
     })
 }
-
-
