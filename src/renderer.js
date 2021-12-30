@@ -79,4 +79,16 @@ function handleGameLoading() {
         win.loadURL("https://lemon-attack.telekiwi.repl.co");
 
     })
+    document.getElementById('gameIcon2').addEventListener("click", event => {
+        // temp 
+        win.loadURL("https://snext-games.simple21.repl.co/games/Tetris.html");
+
+    })
+    document.getElementById('gameIcon3').addEventListener("click", event => {
+        win.loadURL("https://snext-games.simple21.repl.co/games/CityWorld.html");
+
+    })
+
 }
+
+
