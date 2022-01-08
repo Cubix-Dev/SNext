@@ -5,9 +5,8 @@
     <title>SNext - Home</title>
 
     <link rel="stylesheet" href="style.css" />
-	<script src="./mainui.js"></script>
-  <script src="renderer.js"></script>
-
+    <script src="./mainui.js"></script>
+    <script src="./renderer.js"></script>
   </head>
   <body>
 
@@ -52,6 +51,7 @@
         <div id="PROFILE" class="profile">
           <img src="https://www.w3schools.com/howto/img_avatar.png" style="border-radius: 50%; width: 25px; height: 25px;" onclick="userFlyout();">
           <img src="./1x/baseline_notifications_black_24dp.png" onclick="notificationFlyout()" class="notificationicon">
+          <img src="./1x/info_icon_24dp.png" onclick="buildInfo()" class ="infoicon">
         </div>
 
         <!--
@@ -104,14 +104,8 @@
             
             <p id="gameName" style="font-family: 'Segoe UI Bold'; font-size: 15px; text-align: center; margin-top: -3px">Really Good Game 5</p>
         </div>
-        
-    </div>
-    </div>
 
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
+ 
 
 
   </body>
