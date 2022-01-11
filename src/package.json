@@ -4,7 +4,7 @@
   "description": "A scratch based console.",
   "main": "main.js",
   "scripts": {
-    "start": "electron .", 
+    "start": "npm start . --require", 
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
