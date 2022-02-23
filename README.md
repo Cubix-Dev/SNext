@@ -5,6 +5,19 @@ An open-source Scratch console.
 [![Discord](https://img.shields.io/discord/839159549260333117?color=7289da&label=SNext&logo=Snext)](https://discord.gg/XU4zK5jjMc)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cube-enix/snext)
 ![GitHub issues](https://img.shields.io/github/issues/cube-enix/snext)
+=======
+<p align="center">
+  <img src="https://i.imgur.com/i5CgPuX.png">
+</p>
+
+<h1 align="center">SNext<br>An open-source Scratch console.</h1>
+
+<!-- Shields -->
+<p align="center">
+  <img src="https://img.shields.io/discord/839159549260333117?color=7289da&label=SNext&logo=Snext" href="https://discord.gg/XU4zK5jjMc">
+  <img src="https://img.shields.io/github/last-commit/cube-enix/snext" href="https://github.com/Cube-Enix/SNext/commits/main">
+  <img src="https://img.shields.io/github/issues/cube-enix/snext" href="https://github.com/Cube-Enix/SNext/issues">
+</p>
 
 ## Tell me more, please!
 

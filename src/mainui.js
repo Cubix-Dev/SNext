@@ -58,6 +58,10 @@ function userFlyout() {
     return(currentFlyout);
 }
 
+function buildInfo() {
+    alert("This is SNext build 02/22a. Please note that since this is a devbuild, nothing is finalized yet. There also maybe be bugs and glitches here and there.")
+}
+
 
 function getTime() {
     var time = new Date();
