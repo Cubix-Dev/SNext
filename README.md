@@ -1,4 +1,3 @@
-
 # SNext
 
 An open-source Scratch console.
@@ -9,15 +8,15 @@ An open-source Scratch console.
 
 ## Tell me more, please!
 
-As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games or apps and play them offline or online through a little UI magic and our inhouse compiler, Vroom!
+As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games or apps and play them offline or online through a little UI magic and SNConnect!
 
 ## What do I need to run SNext?
 
-SNext is now an ElectronJS executable, so that means all the dependencies come packaged with it. That's a good thing for you, since all you need is that now!
+SNext is now an ElectronJS executable, so that means all the dependencies come packaged with it. That's a good thing for you, since all you need is that now! You can get the lastest version from the releases section to the right.
 
 ## Wait a minute. Isn't this just Turbowarp then?
 
-Well, not quite. First of all, SNext isn't an editor.. We don't have custom firmware to make games with, so you'll have to live with boring old [Turbowarp](https://turbowarp.org) for now. Second, this is a console. Not an *emulator*, a *console*. We have our own system, with our own code, that has its own features. Also, does TurboWarp have a custom server running to host games? Ok, maybe they do, but it isn't as cool as ours!
+Well, not quite. First of all, SNext isn't an editor.. Although we now have our own editor called [SN-Edit](https://cube-enix.github.io/sn-edit/). Second, this is a console. Not an *emulator*, a *console*. We have our own system, with our own code, that has its own features. Also, does TurboWarp have a custom server running to host games? Ok, maybe they do, but it isn't as cool as ours!
 
 ## Wow, this sounds fun! How do I add my game to the console?
 
