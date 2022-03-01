@@ -5,7 +5,7 @@ echo "
 ┗━━┻┻━┻━┻┻┻━┛┗━┻┻┻━┻━┻┻┛┗━━┻┻━┻━┻━┻━━┻━┻━┻━┻┛"
 # Install Node Modules
 echo "Installing..."
-cd ./src
+cd src
 npm install
 # Update Electron
 echo "Fixing potential vulnerabilities..."
