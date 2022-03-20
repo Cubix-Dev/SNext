@@ -30,7 +30,7 @@ You can apply for launch title status *right now!* Just head to [this link](http
 ## Installation
 
 1. Download the files.
-2. Make sure you have both [Node.js](https://nodejs.org/en/download/), [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ready.
+2. Make sure you have both [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ready.
 3. Clone the repo/download it into a folder on your system.
 4. (WINDOWS ONLY)  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
 4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
@@ -47,7 +47,9 @@ Mystic - Developer (Web Developer)
 
 BlueFalconHD - Developer (front-end)
 
-TeleKiwi - Developer (back-end)
+TeleKiwi - Former Developer (back-end)
+
+ItzElectro - Developer (back-end)
 
 Kaylerr - Developer (extensions)
 
