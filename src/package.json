@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A scratch based console.",
   "main": "main.js",
-  "scripts": {
-    "start": "npm start . --require", 
+  "scripts": { 
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
