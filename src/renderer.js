@@ -54,10 +54,6 @@ function handleWindowControls() {
     }
 }
 
-function handleGameLoading() {
-    // Load a game when it is clicked. Games will be stored on a Google Drive.
-    document.getElementById('gameIcon1').addEventListener("click", event => {
-    
 
         /* function downloadGame() {
             const https = require("https");
@@ -75,18 +71,11 @@ function handleGameLoading() {
             downloadGame();
         } */
 
+function handleGameLoading() {
+    // Load a game when it is clicked. Games will be stored on a Google Drive.
+    document.getElementById('gameIcon1').addEventListener("click", event => {
         // temp 
-        win.loadURL("https://snext-games.simple21.repl.co/games/LemonAttack.html");
-
-    })
-    document.getElementById('gameIcon2').addEventListener("click", event => {
-        // temp 
-        win.loadURL("https://snext-games.simple21.repl.co/games/Tetris.html");
-
-    })
-    document.getElementById('gameIcon3').addEventListener("click", event => {
-        win.loadURL("https://snext-games.simple21.repl.co/games/CityWorld.html");
-
+        win.loadFile("games/myGame.html") //Path to game relative to this file
     })
 
 }
