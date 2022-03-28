@@ -1,3 +1,3 @@
 cd ./src;
 npm install;
-npm start;
+npm audit fix;
