@@ -17,7 +17,7 @@ function createWindow () {
         }
     });
 
-    mainWindow.setIcon("icons/snextlogo.png");
+    // mainWindow.setIcon("icons/snextlogo.png");
 
     // and load the index.html of the app.
     mainWindow.loadFile('index.html');
