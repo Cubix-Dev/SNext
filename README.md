@@ -25,7 +25,7 @@ Well, not quite. First of all, SNext isn't an editor.. Although we now have our 
 
 ## Wow, this sounds fun! How do I add my game to the console?
 
-You can apply for launch title status *right now!* Just head to [this link](https://forms.gle/Rbt1ELbr8HPgEh2q9). You can also join our Discord, [here](https://discord.gg/mqGKmRw9MY).
+Just head to [this link](https://forms.gle/Rbt1ELbr8HPgEh2q9). You can also join our Discord, [here](https://discord.gg/mqGKmRw9MY).
 
 ## Installation
 
