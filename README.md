@@ -27,11 +27,16 @@ Well, not quite. First of all, SNext isn't an editor.. Although we now have our 
 
 Just head to [this link](https://forms.gle/Rbt1ELbr8HPgEh2q9). You can also join our Discord, [here](https://discord.gg/mqGKmRw9MY).
 
-## Installation
+## wOaH! This is cool. Now add this feature!
 
+In general if you want a feature added, simply create a feature request [here](https://github.com/Cube-Enix/SNext/issues/new/choose). Once a dev sees it, we'll give it a cool tag to show the status if your idea. Once we add it you'll be credited for suggesting it!
+
+## Building from Source
+
+###### I'm gonna take this time to warn you that this is **NOT** the recommended way to build SNext. The only time this should be done is when you are attempting to tackle an issue. Most people have issues with the Windows installer script to start and right now theres no plans to fix it.
 1. Download the files.
 2. Make sure you have both [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ready.
-3. Clone the repo/download it into a folder on your system.
+3. Clone the repo into a folder on your system.
 4. (WINDOWS ONLY)  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
 4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
@@ -55,7 +60,7 @@ Kaylerr - Developer (extensions)
 
 and all our wonderful game devs!
 
-## Support
+## I need help!
 
 If you have any issues with using SNext or simply need assistance, please either;
 
