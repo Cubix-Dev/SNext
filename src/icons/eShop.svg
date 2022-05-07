@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="isolation:isolate"
+   viewBox="0 0 480 480"
+   width="480pt"
+   height="480pt"
+   version="1.1"
+   id="svg878"
+   sodipodi:docname="eShop.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   inkscape:export-filename="/Users/roma/bitmap.png"
+   inkscape:export-xdpi="38.400002"
+   inkscape:export-ydpi="38.400002">
+  <metadata
+     id="metadata882">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview880"
+     showgrid="false"
+     showguides="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:zoom="0.74610956"
+     inkscape:cx="556.27077"
+     inkscape:cy="331.12865"
+     inkscape:current-layer="g1332" />
+  <defs
+     id="defs836">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1189">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop1185" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.69411767"
+         offset="0.25299221"
+         id="stop1193" />
+      <stop
+         style="stop-color:#e0e0e0;stop-opacity:0;"
+         offset="1"
+         id="stop1187" />
+    </linearGradient>
+    <clipPath
+       id="_clipPath_3m3dgqFRrPNnH0phCocIqTnH4WkgRTbk">
+      <rect
+         width="480"
+         height="480"
+         id="rect833" />
+    </clipPath>
+    <defs
+       id="defs861">
+      <filter
+         id="rxMm75Xo6yxwJurazYY37FDLfwLwbNW9"
+         x="-0.14935172"
+         y="-0.30833054"
+         width="1.2712674"
+         height="1.620658"
+         filterUnits="objectBoundingBox"
+         color-interpolation-filters="sRGB">
+        <feGaussianBlur
+           in="SourceGraphic"
+           stdDeviation="0"
+           id="feGaussianBlur850" />
+        <feOffset
+           dx="-3"
+           dy="3"
+           result="pf_100_offsetBlur"
+           id="feOffset852" />
+        <feFlood
+           flood-color="#000000"
+           flood-opacity="0.3"
+           id="feFlood854" />
+        <feComposite
+           in2="pf_100_offsetBlur"
+           operator="in"
+           result="pf_100_dropShadow"
+           id="feComposite856" />
+        <feBlend
+           in="SourceGraphic"
+           in2="pf_100_dropShadow"
+           mode="normal"
+           id="feBlend858" />
+      </filter>
+    </defs>
+    <defs
+       id="defs870">
+      <clipPath
+         id="_clipPath_NzZBJ0Awt235vnokSdhP3krH729AmSE4">
+        <rect
+           x="0"
+           y="0"
+           width="244"
+           height="163"
+           transform="matrix(1.404,0,0,1.404,68.721,170.16)"
+           id="rect867" />
+      </clipPath>
+    </defs>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1058"
+       x="-0.044313499"
+       width="1.088627"
+       y="-0.14553153"
+       height="1.2910631">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9067315"
+         id="feGaussianBlur1060" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1189"
+       id="linearGradient1191"
+       x1="241.25883"
+       y1="199.17395"
+       x2="241.25883"
+       y2="149.76352"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1267"
+       x="-0.020632357"
+       width="1.0412647"
+       y="-0.046515"
+       height="1.09303">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.5923344"
+         id="feGaussianBlur1269" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter1788">
+      <feFlood
+         flood-opacity="0.317647"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1778" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1780" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="27.027"
+         result="blur"
+         id="feGaussianBlur1782" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset1784" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1786" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1792"
+       x="-0.069990404"
+       width="1.1399808"
+       y="-0.22985797"
+       height="1.4597159">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.749876"
+         id="feGaussianBlur1790" />
+    </filter>
+  </defs>
+  <circle
+     vector-effect="non-scaling-stroke"
+     cx="240"
+     cy="240"
+     r="240"
+     fill="#ff6a16"
+     id="circle838" />
+  <g
+     id="g1332"
+     style="filter:url(#filter1788)"
+     transform="translate(0.32776334,-11.440028)">
+    <rect
+       x="68.721001"
+       y="139.274"
+       width="342.55801"
+       height="228.84"
+       fill="#e6b507"
+       id="rect840"
+       ry="30.886002"
+       style="fill:#f1a608;fill-opacity:1" />
+    <path
+       style="opacity:1;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:20.6623;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 150.66619,192.96949 27.86065,0.48954 c 2.50636,-73.95767 0.75421,-119.118821 62.05732,-118.530842 61.30314,0.587978 57.02731,41.901512 60.05534,116.083102 l 27.86066,0.48955 c 1.88012,-90.8018 -9.96954,-137.711212 -87.092,-137.115193 -77.12247,0.59602 -90.87707,45.577792 -90.74197,138.583843 z"
+       id="path1082"
+       sodipodi:nodetypes="cczcczc" />
+    <path
+       style="opacity:0.25;fill:url(#linearGradient1191);fill-opacity:1;stroke:none;stroke-width:23.811;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="M 68.721001,199.17395 H 411.14002 c -2.19639,-16.49389 5.85621,-33.77514 -7.51633,-49.41043 H 76.376325 c -12.586706,11.09401 -7.655324,32.80944 -7.655324,49.41043 z"
+       id="path1183"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       x="68.721001"
+       y="170.16"
+       width="342.55801"
+       height="228.84"
+       fill="#ffc800"
+       id="rect848"
+       ry="32.031738" />
+    <rect
+       x="92.135269"
+       y="219.23807"
+       width="301.5459"
+       height="133.75476"
+       fill="#e6b507"
+       id="rect840-1"
+       ry="30.886002"
+       style="opacity:0.581994;isolation:isolate;fill:#f1a608;fill-opacity:1;filter:url(#filter1267)" />
+    <text
+       style="font-style:normal;font-weight:700;font-size:93.9817px;font-family:Comfortaa;opacity:0.25;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.34954;stroke-opacity:1;filter:url(#filter1792)"
+       id="text863"
+       x="110.24258"
+       y="311.12561"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.34954;stroke-opacity:1"
+         id="tspan957">eShop</tspan></text>
+    <text
+       style="font-style:normal;font-weight:700;font-size:93.98170000000000357px;font-family:Comfortaa;isolation:isolate;mix-blend-mode:normal;fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:2.34954;stroke-opacity:1;"
+       id="text863-5"
+       x="110.24258"
+       y="311.12561"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova Bold';fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:2.34954;stroke-opacity:1;"
+         id="tspan957-2">eShop</tspan></text>
+  </g>
+</svg>

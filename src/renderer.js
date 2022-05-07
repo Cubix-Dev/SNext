@@ -8,10 +8,7 @@ const win = remote.getCurrentWindow(); /* Note this is different to the html glo
 // When document has loaded, initialise
 document.onreadystatechange = (event) => {
     if (document.readyState == "complete") {
-        handleWindowControls();
         handleGameLoading();
-
-
     }
 };
 
@@ -22,60 +19,18 @@ window.onbeforeunload = (event) => {
     win.removeAllListeners();
 }
 
-function handleWindowControls() {
-    // Make minimise/maximise/restore/close buttons work when they are clicked
-    document.getElementById('min-button').addEventListener("click", event => {
-        win.minimize();
-    });
-
-    document.getElementById('max-button').addEventListener("click", event => {
-        win.maximize();
-    });
-
-    document.getElementById('restore-button').addEventListener("click", event => {
-        win.unmaximize();
-    });
-
-    document.getElementById('close-button').addEventListener("click", event => {
-        win.close();
-    });
-
-    // Toggle maximise/restore buttons when maximisation/unmaximisation occurs
-    toggleMaxRestoreButtons();
-    win.on('maximize', toggleMaxRestoreButtons);
-    win.on('unmaximize', toggleMaxRestoreButtons);
-
-    function toggleMaxRestoreButtons() {
-        if (win.isMaximized()) {
-            document.body.classList.add('maximized');
-        } else {
-            document.body.classList.remove('maximized');
-        }
-    }
-}
-
-
-        /* function downloadGame() {
-            const https = require("https");
-            
-
-            const file = fs.createWriteStream("../testgame/Lemon Attack.html");
-            const request = https.get("https://replit.com/@Simple21/SNext-GameBase#games/Lemon%20Attack.html", function(response) {
-                response.pipe(file);
-            })
-        } 
-        
-        if(fs.existsSync("../testgame/Lemon Attack.html")) {
-            win.loadFile("../testgame/Lemon Attack.html");
-        } else {
-            downloadGame();
-        } */
-
 function handleGameLoading() {
     // Load a game when it is clicked. Games will be stored on a Google Drive.
+    // --> Games will usually be local but a system for cloud loading can be made for games that require an internet connection.
+    // --> Lets also work on making this system less painfulby making a getElementById for every game. That way new games can loaded after a system update. All scheduled games can get their ID from dev portal
     document.getElementById('gameIcon1').addEventListener("click", event => {
-        // temp 
         win.loadFile("games/myGame.html") //Path to game relative to this file
+    })
+    document.getElementById('gameLib').addEventListener("click", event => {
+        win.loadFile("games/library.html")
+    })
+    document.getElementById('eShop').addEventListener("click", event => {
+        // Open the eShop
     })
 
 }
