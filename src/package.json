@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "download": "^8.0.0",
+    "discord-rich-presence": "^0.0.8",
+    "jszip": "^3.9.1",
     "electron-squirrel-startup": "^1.0.0"
   },
   "config": {
