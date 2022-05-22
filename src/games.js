@@ -1,5 +1,6 @@
 // File for loading games and then adding them to to the console.
 var fs = require('fs');
+var JSZip = require("jszip");
 const { isContext } = require('vm');
 
 var files = fs.readdirSync("games");
@@ -15,3 +16,16 @@ for (var i;i<files.length;i++) {
 }
 
 //          \(*O*)/
+/* JSZip code ship wanted - Electro
+
+var targetfile = "testfile.zip";
+
+fs.readFile(targetfile, function(err, data) {
+    if (err) throw err;
+    JSZip.loadAsync(data).then(function (zip) {
+      files = Object.keys(zip.files);
+      console.log(files);
+    });
+});
+
+*/
