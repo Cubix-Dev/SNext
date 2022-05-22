@@ -32,6 +32,11 @@ function handleGameLoading() {
     document.getElementById('eShop').addEventListener("click", event => {
         // Open the eShop
     })
+    document.getElementById('system-box').addEventListener("click", event => {
+        // Open the system settings
+        win.loadFile("settings.js")
+    })
+    
 
 }
 

@@ -1,15 +1,15 @@
-// Modules to control application life and create native browser window
+// --> Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron');
 const path = require("Path")
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
+// --> Keep a global reference of the window object, if you don't, the window will
+// --> be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
 var IMG_DIR = /icons/
 
 function createWindow () {
-    // Create the browser window.
+    // --> Create the browser window.
     mainWindow = new BrowserWindow({
         width: 1280,
         height: 720,
@@ -21,18 +21,18 @@ function createWindow () {
         }
     });
 
-    // and load the index.html of the app.
+    // --> and load the index.html of the app.
     mainWindow.loadFile('index.html');
 
-    // Open the DevTools.
-    // mainWindow.webContents.openDevTools();
+    // --> Open the DevTools.
+    // --> mainWindow.webContents.openDevTools();
 
-    // Create the window
+    // --> Create the window
     app.on('ready', createWindow)
 
 
 
-    // Emitted when the window is closed.
+    // --> Emitted when the window is closed.
     mainWindow.on('closed', () => {
         if(ProcessingInstruction.platform !== 'darwin'){
             app.quit();
@@ -41,13 +41,13 @@ function createWindow () {
 
 }
 
-// Retrieve focused window
+// --> Retrieve focused window
 var theWindow = BrowserWindow.getFocusedWindow();
 
-// Execute common tasks
-// Minimize
+// --> Execute common tasks
+// --> Minimize
 theWindow.minimize();
-// Maximize app
+// --> Maximize app
 theWindow.maximize();
-// Close app
+// --> Close app
 theWindow.close();

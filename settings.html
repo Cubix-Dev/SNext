@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SNext - Home</title>
+    <link href="settingsstyle.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function darkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+  </head>
+  <body>
+    <div class="sidenav">
+        Settings
+        <a href="#about">General Settings</a>
+        <a href="index.html">Close</a>
+      </div>
+      <div class="main">
+        <section id="about">
+            <h2 >General Settings</h2>
+            <h3>Dark Theme</h3>
+            <p>Makes it easier to see the screen is easier on your eyes. Plus it looks very cool</p>
+            <label class="switch" onclick="darkmode()">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </section>                                          
+      </div>
+  </body>
