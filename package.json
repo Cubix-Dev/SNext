@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "electron-builder": "^23.0.3"
+  }
+}
