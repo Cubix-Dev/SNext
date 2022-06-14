@@ -5,12 +5,7 @@
     <title>SNext - Home</title>
     <link href="settingsstyle.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-    <script>
-        function darkmode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        }
-    </script>
+    <script src="settings.js"></script>
   </head>
   <body>
     <div class="sidenav">
@@ -21,10 +16,10 @@
       <div class="main">
         <section id="about">
             <h2 >General Settings</h2>
-            <h3>Dark Theme</h3>
-            <p>Makes it easier to see the screen is easier on your eyes. Plus it looks very cool</p>
-            <label class="switch" onclick="darkmode()">
-                <input type="checkbox" checked>
+            <h3>Developer Mode</h3>
+            <p>Only For Developers. Allows you to boot a SNX file and see certain info about the console like the Build Number. Mostly just for testing or bug reporting. Generally useless to the average player</p>
+            <label class="switch" onclick="devMode()">
+                <input type="checkbox">
                 <span class="slider round"></span>
             </label>
         </section>                                          

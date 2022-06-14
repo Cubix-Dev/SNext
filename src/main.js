@@ -17,7 +17,8 @@ function createWindow () {
         backgroundColor: '#FFF',
         icon: path.join(__dirname, IMG_DIR, snextlogo.png),
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            contextIsolation: false
         }
     });
 
