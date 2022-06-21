@@ -42,7 +42,7 @@ function createWindow () {
 
 app.on('ready', () => {
     createWindow()
-}
+});
 
 // --> Retrieve focused window
 var theWindow = BrowserWindow.getFocusedWindow();
