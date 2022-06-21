@@ -40,7 +40,7 @@ function createWindow () {
 
 }
 
-app.on('ready') {
+app.on('ready', () => {
     createWindow()
 }
 
