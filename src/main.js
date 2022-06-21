@@ -27,9 +27,6 @@ function createWindow () {
 
     // --> Open the DevTools.
     // --> mainWindow.webContents.openDevTools();
-    // --> Fix linux issues
-    app.commandLine.appendSwitch('disable-gpu');
-    app.commandLine.appendArgument('disable-gpu');
     // --> Create the window
     app.on('ready', createWindow)
 
