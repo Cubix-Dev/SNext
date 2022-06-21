@@ -8,6 +8,9 @@ let mainWindow;
 
 var IMG_DIR = /icons/
 
+// Fix launch issues?
+app.disableHardwareAcceleration()
+
 function createWindow () {
     // --> Create the browser window.
     mainWindow = new BrowserWindow({
