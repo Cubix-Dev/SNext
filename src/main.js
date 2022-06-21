@@ -44,11 +44,3 @@ function createWindow () {
 
 // --> Retrieve focused window
 var theWindow = BrowserWindow.getFocusedWindow();
-
-// --> Execute common tasks
-// --> Minimize
-theWindow.minimize();
-// --> Maximize app
-theWindow.maximize();
-// --> Close app
-theWindow.close();

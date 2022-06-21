@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A scratch based console.",
   "main": "main.js",
-  "scripts": { 
+  "scripts": {
     "start": "electron .",
     "package": "electron-forge package",
     "make": "electron-forge make"
@@ -20,10 +20,11 @@
     "electron": "^16.0.5"
   },
   "dependencies": {
-    "download": "^8.0.0",
     "discord-rich-presence": "^0.0.8",
+    "download": "^8.0.0",
+    "electron-squirrel-startup": "^1.0.0",
     "jszip": "^3.9.1",
-    "electron-squirrel-startup": "^1.0.0"
+    "path": "^0.12.7"
   },
   "config": {
     "forge": {

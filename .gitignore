@@ -1,10 +1,4 @@
+.Builds
 src/node_modules
-src/package.json
-src/pacakge-lock.json
-src/Segoe_UI_Bold_Italic.ttf
-src/Segoe_UI_Bold.ttf
-src/Segoe_UI_Italic.ttf
-src/Segoe_UI.ttf
-src/out
-src/1x
-src/2x
+node_modules
+.git
