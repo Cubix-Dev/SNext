@@ -30,11 +30,7 @@ function createWindow () {
 
     // --> Open the DevTools.
     // --> mainWindow.webContents.openDevTools();
-    // --> Create the window
-    app.on('ready', createWindow)
-
-
-
+    
     // --> Emitted when the window is closed.
     mainWindow.on('closed', () => {
         if(ProcessingInstruction.platform !== 'darwin'){
@@ -42,6 +38,10 @@ function createWindow () {
         }
     });
 
+}
+
+app.on('ready'){
+    createWindow()
 }
 
 // --> Retrieve focused window
