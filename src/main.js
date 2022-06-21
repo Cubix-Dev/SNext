@@ -6,7 +6,7 @@ const path = require("path")
 // --> be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
-var IMG_DIR = /icons/
+var IMG_DIR = "icons"
 
 // Fix launch issues?
 app.disableHardwareAcceleration()
