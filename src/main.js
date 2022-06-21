@@ -18,7 +18,7 @@ function createWindow () {
         height: 720,
         frame: false,
         backgroundColor: '#FFF',
-        icon: path.join(__dirname, IMG_DIR, snextlogo.png),
+        icon: path.join(__dirname, IMG_DIR, "snextlogo.png"),
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
