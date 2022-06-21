@@ -16,7 +16,7 @@ function createWindow () {
     mainWindow = new BrowserWindow({
         width: 1280,
         height: 720,
-        frame: false,
+        frame: true,
         backgroundColor: '#FFF',
         icon: path.join(__dirname, IMG_DIR, "snextlogo.png"),
         webPreferences: {
