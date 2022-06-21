@@ -33,7 +33,7 @@ function createWindow () {
     
     // --> Emitted when the window is closed.
     mainWindow.on('closed', () => {
-        if(ProcessingInstruction.platform !== 'darwin'){
+        if(process.platform !== 'darwin'){
             app.quit();
         }
     });
