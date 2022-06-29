@@ -22,6 +22,10 @@
   "dependencies": {
     "discord-rich-presence": "^0.0.8",
     "download": "^8.0.0",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.4.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "electron-squirrel-startup": "^1.0.0",
     "jszip": "^3.9.1",
     "path": "^0.12.7"
