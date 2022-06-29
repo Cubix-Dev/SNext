@@ -42,6 +42,7 @@ function createWindow () {
 
 app.on('ready', () => {
     createWindow()
+    app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required") // Make Startup Autoplay Work
 });
 
 // --> Retrieve focused window
