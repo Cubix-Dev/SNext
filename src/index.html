@@ -1,40 +1,51 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
     <meta charset="UTF-8">
-    <title>SNext - Home</title>
-
-    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNext</title>
+    <link rel="stylesheet" href="./index.css">
     <script src="./mainui.js"></script>
     <script src = "/games.js"></script>
   </head>
+
   <body>
-    <div class=flexbox>
-      <div class="stockapps">
-        <img src="icons/eShop.svg">
-        <!-- <img src="icons/sverse.svg"> -->
-      </div>
-      <div class="main">
-        <div class="gameLib">
-          <div class="caption">
-            Game Library
-          </p>
-        </div>
+    <div id="sidebar" style="display:inline-block;">
+      <div class="sideicon" onclick="geteShop()" style="margin-top: 0;"><img class="sideicon" src="icons/eShop.svg"></div>
+      <div class="sideicon"></div>
+      <div class="sideicon"></div>
+      <div class="sideicon"></div>
     </div>
-        <div class="systemflex">
-          <div class="system-box">
-          <div class=caption">
-            System Settings
-          </div>
+    <div id="menu" style="display:inline-block;">
+      <div id="gamelibrary" onclick="getGames()">
+        <div>
+          
         </div>
-          <div class="friend-box">
-          <div class=caption">
-            Friends
-          </div>
+        <h4>Game Library</h4>
+      </div>
+      <div id="settings" onclick="getSettings()">
+        <div>
+
         </div>
+        <h4>Settings</h4>
+      </div>
+      <div id="friends" onclick="getSettings()">
+        <div>
+
         </div>
+        <h4>Friends</h4>
+      </div>
+    </div>
+  </body>
   <script src="./renderer.js"></script>
   <script src="./updater.js"></script>
   <script src="./rich-presense.js"></script>
-  </body>
+  <style>
+    .sideicon {
+      transition: 0.5s;
+    }
+
+  </style>
+
 </html>

@@ -19,18 +19,21 @@ window.onbeforeunload = (event) => {
     win.removeAllListeners();
 }
 
+// --> Instead of having one messy function trying to handle everything what if we instead have 100 tiny functions that can run better?
+function getGames() {
+    win.loadFile("games/library.html")
+}
+
+function geteShop() {
+    win.loadURL("https://cube-enix.github.io/eShop/")
+}
+
 function handleGameLoading() {
     // Load a game when it is clicked. Games will be stored on a Google Drive.
     // --> Games will usually be local but a system for cloud loading can be made for games that require an internet connection.
-    // --> Lets also work on making this system less painfulby making a getElementById for every game. That way new games can loaded after a system update. All scheduled games can get their ID from dev portal
+    // --> Lets also work on making this system less painfulby making a getElementById for every game. That way new games can load after a system update. All scheduled games can get their ID from dev portal
     document.getElementById('gameIcon1').addEventListener("click", event => {
         win.loadFile("games/myGame.html") //Path to game relative to this file
-    })
-    document.getElementById('gameLib').addEventListener("click", event => {
-        win.loadFile("games/library.html")
-    })
-    document.getElementById('eShop').addEventListener("click", event => {
-        // Open the eShop
     })
     document.getElementById('system-box').addEventListener("click", event => {
         // Open the system settings
