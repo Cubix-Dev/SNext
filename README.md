@@ -45,7 +45,9 @@ In general if you want a feature added, simply create a feature request [here](h
 Please note that you'll get an error, stating that there were no files to run. **THIS IS INTENDED BEHAVIOUR. DO NOT REPORT THIS AS A BUG. SNEXT  WILL STILL COMPILE SUCCESSFULLY.** -->
 
 ## Features on their way
--
+- Discord Rich Presense
+- Automatic Game Loading
+- Auto Updating
 
 ## Credits
 
