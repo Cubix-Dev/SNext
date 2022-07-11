@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'M PLUS 1p';
+    background-color: #303030;
+}
+#header {
+    background-color: #606060;
+    text-align: center;
+    height: 40;
+    padding-top: 20px;
+    font-weight: 700;
+}
+#gamesgrid {
+    width: calc(100% - 50px);
+    height: fit-content;
+    background-color: #303030;
+    display: grid;
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 260px;
+}
+.gamecard {
+    background-color: rgb(63, 144, 236);
+    background-image: url(./placeholder-icon.png);
+}
+.gamecard:hover .gamename {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 30px;
+}
+
+.gamename {
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: 1000;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.6);
+}
