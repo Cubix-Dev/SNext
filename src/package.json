@@ -4,7 +4,7 @@
   "description": "A scratch based console.",
   "main": "main.js",
   "scripts": {
-    "start": "electron --disable-gpu --disable-software-rasterizer .",
+    "start": "electron --enable-gpu --ignore-gpu-blacklist .",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
@@ -20,15 +20,17 @@
     "electron": "^16.0.5"
   },
   "dependencies": {
-    "discord-rich-presence": "^0.0.8",
-    "download": "^8.0.0",
+    "@electron/remote": "^2.0.8",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.4.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1",
+    "discord-rpc": "^4.0.1",
+    "download": "^8.0.0",
+    "electron-is-dev": "^2.0.0",
     "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.0",
     "jszip": "^3.9.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1"
   },
   "config": {
     "forge": {
