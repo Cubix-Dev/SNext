@@ -21,7 +21,8 @@ function createWindow () {
         icon: path.join(__dirname, IMG_DIR, "snextlogo.png"),
         webPreferences: {
             nodeIntegration: true,
-            contextIsolation: false
+            contextIsolation: false,
+            preload: path.join(__dirname, 'renderer.js')
         }
     });
 

@@ -28,6 +28,10 @@ function geteShop() {
     win.loadURL("https://cube-enix.github.io/eShop/")
 }
 
+function getSettings() {
+    console.log("Coming Soon")
+}
+
 function handleGameLoading() {
     // Load a game when it is clicked. Games will be stored on a Google Drive.
     // --> Games will usually be local but a system for cloud loading can be made for games that require an internet connection.
