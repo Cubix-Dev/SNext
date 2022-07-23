@@ -11,7 +11,6 @@ function getGames() {
     win.loadFile("games/library.html")
 }
 
-
 // --> Boot the eShop
 function geteShop() {
     win.loadURL("https://cube-enix.github.io/eShop/")

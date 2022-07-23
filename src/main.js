@@ -52,6 +52,10 @@ app.on("ready", () => {
 // --> Retrieve focused window
 var theWindow = BrowserWindow.getFocusedWindow();
 
+// --> For 1-Click Install
+const ses = mainWindow.webContents.session
+ses.setDownloadPath(path.join(__dirname, "games"))
+
 // --> Rich Presense Stuff
 const clientId = "976863727443910766";
 
