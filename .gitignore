@@ -1,4 +1,5 @@
 .Builds
 src/node_modules
+src/out
 node_modules
 .git

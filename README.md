@@ -38,6 +38,7 @@ In general if you want a feature added, simply create a feature request [here](h
 2. Make sure you have both [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ready.
 3. Clone the repo into a folder on your system.
 4. (WINDOWS ONLY)  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
+<b>We are officially depricating install.ps1 after the release of v1.1.0. Use</b> `install.bat` </b>instead</b>
 4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
 **(Note: The Linux Build is relativly buggy. For best performance ~~grab a glass and~~ use Wine for now.)**
@@ -48,10 +49,11 @@ Please note that you'll get an error, stating that there were no files to run. *
 - Discord Rich Presense
 - Automatic Game Loading
 - Auto Updating
+- eShop Intergration
 
 ## Credits
 
-ShipmasterKyle - Creator of SNext (front-end)
+ShipmasterKyle - Creator of SNext (front-end and back-end)
 
 Mystic - Developer (Web Developer)
 
