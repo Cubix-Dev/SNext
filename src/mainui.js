@@ -59,7 +59,7 @@ function userFlyout() {
 }
 
 function buildInfo() {
-    alert("This is SNext build 02/22a. Please note that since this is a devbuild, nothing is finalized yet. There also maybe be bugs and glitches here and there.")
+    alert("This is SNext Nightly v1.1.90. Please note that since this is a Nightly Build, nothing is finalized yet. There also maybe be bugs and glitches here and there.")
 }
 
 

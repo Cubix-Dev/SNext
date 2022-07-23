@@ -29,6 +29,6 @@ autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
 })
 
 autoUpdater.on('error', message => {
-    console.error('There was a problem updating SNext. If the issue persists, contact support.')
-    console.error(message)
-  })
+  console.error('There was a problem updating SNext. If the issue persists, contact support.')
+  console.error(message)
+})
