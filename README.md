@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/i5CgPuX.png">
 </p>
 
-<h1 align="center">SNext<br>An open-source Scratch console.</h1>
+<h1 align="center">SNext<br>An open-source Scratch gaming console.</h1>
 
 <!-- Shields -->
 <p align="center">
@@ -13,11 +13,11 @@
 
 ## Tell me more, please!
 
-As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games or apps and play them offline or online through a little UI magic and SNConnect!
+As you wish. SNext is made with JavaScript, the same language that Scratch 3.0 runs off of. Games can be sumbitted to it, and if approved, they'll go on a server which can be accessed via the included shop. You can then download these games and play them offline or online through a little UI magic and SNConnect!
 
 ## What do I need to run SNext?
 
-SNext is now an ElectronJS executable, so that means all the dependencies come packaged with it. That's a good thing for you, since all you need is that now! You can get the lastest version from the releases section to the right.
+SNext is now an ElectronJS executable, so that means all the dependencies come packaged with it. That's a good thing for you, since all you need is that now! You can get the lastest version from the [releases section](https://github.com/Cube-Enix/SNext/releases/latest) to the right.
 
 ## Wait a minute. Isn't this just Turbowarp then?
 
@@ -33,12 +33,14 @@ In general if you want a feature added, simply create a feature request [here](h
 
 ## Building from Source
 
-###### I'm gonna take this time to warn you that this is **NOT** the recommended way to build SNext. The only time this should be done is when you are attempting to tackle an issue. Most people have issues with the Windows installer script to start and right now theres no plans to fix it.
+###### I'm gonna take this time to warn you that this is **NOT** the recommended way to build SNext. The only time this should be done is when you are attempting to tackle an issue.
 1. Download the files.
 2. Make sure you have both [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ready.
 3. Clone the repo into a folder on your system.
 4. (WINDOWS ONLY)  Navigate to the directory that you downloaded/cloned SNext to. Then right click on the file called `install.ps1` and click on 'Run with Powershell'. If you get an error about security, see [this](https://www.danielengberg.com/powershell-check-execution-policy/).
+
 <b>We are officially depricating install.ps1 after the release of v1.1.0. Use</b> `install.bat` </b>instead</b>
+
 4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
 **(Note: The Linux Build is relativly buggy. For best performance ~~grab a glass and~~ use Wine for now.)**
