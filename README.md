@@ -54,20 +54,9 @@ Please note that you'll get an error, stating that there were no files to run. *
 - eShop Intergration
 
 ## Credits
-
-ShipmasterKyle - Creator of SNext (front-end and back-end)
-
-Mystic - Developer (Web Developer)
-
-BlueFalconHD - Developer (front-end)
-
-TeleKiwi - Former Developer (back-end)
-
-ItzElectro - Developer (back-end)
-
-Kaylerr - Developer (extensions)
-
-and all our wonderful game devs!
+<a href="https://github.com/Cube-Enix/SNext/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Cube-Enix/SNext" />
+</a>
 
 ## I need help!
 
