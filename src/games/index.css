@@ -2,19 +2,40 @@
 body {
     margin: 0;
     font-family: 'M PLUS 1p';
-    background-color: #303030;
+    background-color: #221f1f;
 }
 #header {
-    background-color: #606060;
+    background-color: #c4c4c4;
     text-align: center;
+    height: 50;
+    width: 100%;
+    padding: 10;
+}
+#header h3 {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 35;
+    width: fit-content;
+    justify-content: center;
+}
+#backbutton {
+    background-color: #f4742b;
+    width: 80;
     height: 40;
-    padding-top: 20px;
-    font-weight: 700;
+    margin-top: 5;
+    margin-left: 5;
+    cursor: pointer;
+}
+#backbutton h3 {
+    position: relative;
+    top: 5;
+    
 }
 #gamesgrid {
     width: calc(100% - 50px);
     height: fit-content;
-    background-color: #303030;
+    background-color: #221f1f;
     display: grid;
     padding: 25px;
     gap: 25px;
