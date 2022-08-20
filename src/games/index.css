@@ -24,7 +24,7 @@ body {
 }
 .gamecard {
     background-color: rgb(63, 144, 236);
-    background-image: url(./placeholder-icon.png);
+    background-image: url(./TemperaryGameCard.png);
 }
 .gamecard:hover .gamename {
     background-color: rgba(255, 255, 255, 0.8);
