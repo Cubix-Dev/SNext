@@ -41,7 +41,7 @@ In general if you want a feature added, simply create a feature request [here](h
 
 <b>We are officially depricating install.ps1 after the release of v1.1.0. Use</b> `install.bat` <b>instead</b>
 
-4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `sh install.sh`.
+4. (LINUX ONLY) Navigate to the directory that you downloaded/cloned SNext to. Then open it in the terminal and run: `./install.sh`.
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
 **(Note: Despite the special treatment the Linux Build recieves its still relativly buggy. If you find an issue with it report it [here](https://github.com/Cube-Enix/SNext/issues/5))**
 <!-- 
