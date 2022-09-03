@@ -5,6 +5,7 @@ const path = require("path");
 const remote = require('@electron/remote/main')
 // --> For rich presense
 const DiscordRPC = require("discord-rpc");
+const { Console } = require("console");
 
 // --> Keep a global reference of the window object, if you don't, the window will
 // --> be closed automatically when the JavaScript object is garbage collected.
@@ -19,7 +20,7 @@ function createWindow() {
     width: 1280,
     height: 720,
     frame: true,
-    backgroundColor: "#FFF",
+    backgroundColor: "#000",
     icon: path.join(__dirname, IMG_DIR, "snextlogo.png"),
     webPreferences: {
       nodeIntegration: true,
@@ -47,6 +48,7 @@ app.on("ready", () => {
   remote.initialize();
   remote.enable(mainWindow.webContents)
   app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required"); // Make Startup Autoplay Work
+  Console.Log("Ready");
 });
 
 // --> Retrieve focused window
@@ -63,7 +65,7 @@ const rpc = new DiscordRPC.Client({ transport: "ipc" });
 const startTimestamp = new Date();
 
 async function setActivity() {
-    console.log("We're live!")
+    console.log("We're live!");
   if (!rpc || mainWindow) {
     return;
   }
