@@ -13,5 +13,5 @@ function getGames() {
 
 // --> Boot the eShop
 function geteShop() {
-    win.loadURL("https://cube-enix.github.io/eShop/")
+    win.loadURL("https://cube-enix.github.io/eShop/") //might use a system like this to load games.. idk -Thoring
 }
