@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
+
+:root {
+    --background: #221f1f;
+    --sidebar: #edebcb;
+    --sidebar-item: #f4742b;
+    --options: #c4c4c4;
+    --library: #ffffff;
+}
+
 body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
-    background-color: #221f1f;
+    background-color: var(--background);
 }
 
 .sidebar {grid-area: sidebar;}
@@ -19,16 +28,13 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
     padding: 25px;
     margin: 0;
 }
-.menuitem {
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
 .eshop {grid-area: button1;}
 .item2 {grid-area: button2;}
 .item3 {grid-area: button3;}
 .item4 {grid-area: button4;}
 .sidebar {
-    background-color: #edebcb;
+    background-color: var(--sidebar);
     display: grid;
     grid-template-areas: 
     'button1'
@@ -40,7 +46,7 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
     gap: 10px;
 }
 .sidebaritem {
-    background-color: #f4742b;
+    background-color: var(--sidebar-item);
     border-radius: 50%;
 }
 .sidebaritem img {
@@ -51,11 +57,11 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
 }
 
 .library, .settings, .friends {
-    background-color: #c4c4c4;
+    background-color: var(--options);
     padding-top: 20px;
     text-align: center; 
     font-weight: 650;
     font-size: 20;
 }
 
-.library {background-color: #ffffff;}
+.library {background-color: var(--library);}

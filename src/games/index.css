@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
+
+:root {
+    --background: #221f1f;
+    --header: #edebcb;
+    --header-item: #f4742b;
+    --games: #ffffff;
+}
+
 body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
-    background-color: #221f1f;
+    background-color: var(--background);
     text-align: center; 
     font-weight: 650;
     font-size: 20;
 }
 
-.sidebar {grid-area: sidebar;}
-.library {grid-area: library;}
-.settings {grid-area: settings;}
-.friends {grid-area: friends;}
 .mainmenu {
     width: calc(100% - 50px);
     height: calc(100% - 50px);
@@ -19,18 +23,15 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
     padding: 25px;
     margin: 0;
 }
-.menuitem {
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
 .header {
-    background-color: #edebcb;
+    background-color: var(--header);
     padding-top: 20px;
     
 }
 
 #back {
-    background-color: #f4742b;
+    background-color: var(--header-item);
     width: fit-content;
     height: 65%;
     padding: 2px 10px 0px 10px;
@@ -40,7 +41,7 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
 }
 
 .games {
-    background-color: #ffffff;
+    background-color: var(--games);
     display: grid;
     padding: 20px;
     gap: 20px;
