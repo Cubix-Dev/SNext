@@ -3,47 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game Library</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="./index.js" defer></script>
 </head>
 <body>
-    <div id="header">
-        <div id="backbutton" onclick="mainmenu()">
-            <h3>Back</h3> 
+    <div class="mainmenu">
+        <div class="menuitem header">
+            <div>Games</div>
+            <div id="back">Back</div>
         </div>
-        <h3>Game Library</h1>
-    </div>
-    <div id="gamesgrid">
-
-        <div class="gamecard" onclick='loadgame("game")'>
-            <div class="gamename">(Game Name)</div>
-    </div>
-
-        <div class="gamecard" onclick='loadgame("game")'>
-            <div class="gamename">(Game Name)</div>
-    </div>
-
-        <div class="gamecard" onclick='loadgame("game")'>
-            <div class="gamename">(Game Name)</div>
-    </div>
-
-        <div class="gamecard" onclick='loadgame("game")'>
-            <div class="gamename">(Game Name)</div>
-    </div>
-
-        <div class="gamecard" onclick='loadgame("game")'>
-            <div class="gamename">(Game Name)</div>
-    </div>
-
+        <div class="menuitem games">
+            <div class="gamecard" onclick="loadgame('Template Card')">
+                <img class="gamecard-img" src="./TemperaryGameCard.png">
+                <div class="gamecard-title">Template Card</div>
+            </div>
+        </div>
     </div>
 </body>
 <style>
-    .gamename {
-        transition: 0.5s;
-    }
-    .gamecard {
-        transition: 0.5s;
-    }
+    .sidebaritem,
+    .gamecard-title 
+    {transition: 0.5s;}
 </style>
 </html>
