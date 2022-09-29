@@ -21,7 +21,7 @@ SNext is now an ElectronJS executable, so that means all the dependencies come p
 
 ## Wait a minute. Isn't this just Turbowarp then?
 
-Well, not quite. First of all, SNext isn't an editor.. Although we now have our own editor called [SN-Edit](https://cube-enix.github.io/sn-edit/). Second, this is a console. Not an *emulator*. SNext is designed to run games from a seperate system mostly without an internet connection or the limitations of an everyday browser. Also, does TurboWarp have a custom server running to host games? Ok, maybe they do, but it isn't as cool as ours!
+Well, not quite. First of all, SNext isn't an editor.. Although we now have our own editor called [SN-Edit](https://cube-enix.github.io/SN-Edit/). Second, this is a console. Not an *emulator*. SNext is designed to run games from a seperate system mostly without an internet connection or the limitations of an everyday browser. Also, does TurboWarp have a custom server running to host games? Ok, maybe they do, but it isn't as cool as ours!
 
 ## Wow, this sounds fun! How do I add my game to the console?
 
