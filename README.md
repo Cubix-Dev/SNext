@@ -1,6 +1,5 @@
 # 🚀 SNext Next coming soon! Expect:
 - Easy game installs
-- (Maybe) In browser support
 - A new fancy UI
 ## Join the discord to learn more!
 
