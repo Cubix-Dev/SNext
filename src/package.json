@@ -1,0 +1,39 @@
+{
+    "name": "snext",
+    "version": "1.1.0",
+    "description": "A scratch gaming console",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron . --no-sandbox"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "Cube Enix",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^21.0.1"
+    },
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "dependencies": {
+      "@electron/remote": "^2.0.8",
+      "@supercharge/fs": "^3.4.0",
+      "bootstrap": "^5.2.2",
+      "electron-squirrel-startup": "^1.0.0",
+      "fs": "0.0.1-security",
+      "path": "^0.12.7",
+      "yarn": "^1.22.19"
+    }
+  }
+  
