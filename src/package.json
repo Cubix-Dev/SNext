@@ -11,11 +11,11 @@
       "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
+      "scratch",
+      "cube enix",
       "Electron",
-      "quick",
-      "start",
-      "tutorial",
-      "demo"
+      "console",
+      "gaming"
     ],
     "author": "Cube Enix",
     "license": "MIT",
