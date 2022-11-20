@@ -48,15 +48,18 @@ app.on("ready", () => {
   remote.initialize();
   remote.enable(mainWindow.webContents)
   app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required"); // Make Startup Autoplay Work
-  Console.Log("Ready");
+  console.log("Ready");
 });
 
 // --> Retrieve focused window
 var theWindow = BrowserWindow.getFocusedWindow();
 
 // --> For 1-Click Install
-const ses = mainWindow.webContents.session
-ses.setDownloadPath(path.join(__dirname, "games"))
+try {
+  const ses = mainWindow.webContents.session
+  ses.setDownloadPath(path.join(__dirname, "games"))
+} catch(error) {console.error(error)}
+
 
 // --> Rich Presense Stuff
 const clientId = "976863727443910766";
