@@ -51,7 +51,7 @@ In general if you want a feature added, simply create a feature request [here](h
 5. Navagate to the directory that you downloaded/cloned SNext to. Then, navigate to `src` and run `npm start`.
 **(Note: Despite the special treatment the Linux Build recieves its still relativly buggy. If you find an issue with it report it [here](https://github.com/Cube-Enix/SNext/issues/5))**
 <!-- 
-Please note that you'll get an error, stating that there were no files to run. **THIS IS INTENDED BEHAVIOUR. DO NOT REPORT THIS AS A BUG. SNEXT  WILL STILL COMPILE SUCCESSFULLY.** -->
+Please note that you'll get an error, stating that there were no files to run. **THIS IS INTENDED BEHAVIOUR. DO NOT REPORT THIS AS A BUG. SNEXT  WILL STILL COMPILE SUCCESSFULLY. ** -->
 
 ## Features on their way
 - Discord Rich Presense
