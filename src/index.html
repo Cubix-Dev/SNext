@@ -1,30 +1,22 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device.width">
+    <meta charset="utf-16">
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>SNext</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./mainui.js"></script>
-</head>
-<body>
-    <div class="mainmenu">
-        <div class="menuitem sidebar">
-            <div class="sidebaritem eshop" onclick="geteShop()">
-              <img src="./icons/eShop.svg" alt="">
-            </div>
-            <div class="sidebaritem item2"></div>
-            <div class="sidebaritem item3"></div>
-            <div class="sidebaritem item4"></div>
-        </div>
-        <div class="menuitem library" onclick="getGames()">Game Library</div>
-        <div class="menuitem settings" onclick="getSettings()">Settings</div>
-        <div class="menuitem friends" onclick="getFriends()">Friends</div>
+  </head>
+  <body style="display: block;">
+    <h1>🚀 SNext Next</h1>
+    <p><strong>If you see this window, Electron.js successfully loaded!</strong></p>
+    <button onclick="scanContents()">Test Game Loading</button>
+    <br>
+    <div id="Games">
+        <!--Empty Div for creating new games-->
     </div>
-</body>
-<script src="./renderer.js"></script>
-<script src="./updater.js"></script>
-<style>
-    .sidebaritem {transition: 0.5s;}
-</style>
+  </body>
+  <!--Game Handler-->
+  <script src="./gameHandler.js"></script>
+  <script src="./main.js"></script>
 </html>

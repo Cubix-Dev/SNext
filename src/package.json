@@ -1,62 +1,39 @@
 {
-  "name": "snext",
-  "version": "1.0.0",
-  "description": "A scratch based console.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron --enable-gpu --ignore-gpu-blacklist .",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
-  },
-  "repository": "",
-  "author": "Cube-Enix",
-  "license": "MIT",
-  "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.61",
-    "@electron-forge/maker-deb": "^6.0.0-beta.61",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.61",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
-    "@electron-forge/maker-zip": "^6.0.0-beta.61",
-    "electron": "^16.2.8"
-  },
-  "dependencies": {
-    "@electron/remote": "^2.0.8",
-    "bootstrap": "^5.2.0",
-    "bootstrap-icons": "^1.4.0",
-    "discord-rpc": "^4.0.1",
-    "download": "^8.0.0",
-    "electron-is-dev": "^2.0.0",
-    "electron-squirrel-startup": "^1.0.0",
-    "jquery": "^3.6.0",
-    "jszip": "^3.9.1",
-    "path": "^0.12.7",
-    "popper.js": "^1.16.1"
-  },
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "snext"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ]
+    "name": "snext",
+    "version": "1.1.0",
+    "description": "A scratch gaming console",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron . --no-sandbox"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "scratch",
+      "cube enix",
+      "Electron",
+      "console",
+      "gaming"
+    ],
+    "author": "Cube Enix",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^21.0.1"
+    },
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "dependencies": {
+      "@electron/remote": "^2.0.8",
+      "@supercharge/fs": "^3.4.0",
+      "bootstrap": "^5.2.2",
+      "electron-squirrel-startup": "^1.0.0",
+      "fs": "0.0.1-security",
+      "path": "^0.12.7",
+      "yarn": "^1.22.19"
     }
   }
-}
+  
