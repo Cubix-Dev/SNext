@@ -7,7 +7,15 @@ function scanContents() {
     const fs = require('fs');
     const path = require('path');
     console.log("Welcome to SNext Update Next")
-    var files = fs.readdirSync(path.join(__dirname,"myGames"))
+    var files;
+    try {
+        files = fs.readdirSync(path.join(__dirname,"myGames"))
+    } catch (err) {
+        console.log("myGames doesn't exist, so let's make one!")
+        fs.mkdirSync(path.join(__dirname,"myGames"));
+        files = fs.readdirSync(path.join(__dirname,"myGames"))
+    }
+    
     if (files.length != 0){
       files.forEach(readFile)
     } else {
