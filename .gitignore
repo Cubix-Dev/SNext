@@ -3,3 +3,5 @@ src/node_modules
 src/out
 node_modules
 .git
+src/package.json
+src/package-lock.json
