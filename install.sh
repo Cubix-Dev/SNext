@@ -10,10 +10,12 @@ then
         then
             echo "Installing Node ..."
             # this part will only work on debian-based distros but who cares
-            curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-            sudo apt-get install nodejs -y
-            echo "Node has been installed."
-            sleep 5
+            if [ -f "/etc/debian_version" ]; then
+               curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+               sudo apt-get install nodejs -y
+               echo "Node has been installed."
+               sleep 5
+            fi
         else
             echo "Please install Node.js, then retry this installer."
             exit 1
