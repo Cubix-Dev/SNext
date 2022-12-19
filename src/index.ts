@@ -1,3 +1,4 @@
+// @ts-nocheck
 const path = require('path');
 const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron')
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require

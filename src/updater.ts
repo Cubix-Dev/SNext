@@ -1,3 +1,4 @@
+// @ts-nocheck
 const isDev = require('electron-is-dev');
 const { app, autoUpdater } = require('electron')
 const server = ""

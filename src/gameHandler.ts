@@ -1,4 +1,4 @@
-h// Use details to change things onClick
+// Use details to change things onClick
 function scanContents() {
     // Get details about the session
     const remote = require('@electron/remote');
@@ -35,7 +35,7 @@ function readFile(item) {
         // Add a new button with an image if the file is a game.
         var newElement = document.createElement("div")
         newElement.className = "card border border-5"
-        newElement.style = "width: 18rem;" 
+        // newElement.style = "width: 18rem;" 
         newElement.innerHTML = 
             `<img src="${icon}" class="card-img-top" alt="..."><div>class="card-body"</div><h5 class="card-title> ${itemName} </h5><p class="card-text">Isn't example text exciting? - TeleKiwi </p><a onclick="loadGame(\'${item.toString()}\')" class="btn btn-primary>Go somewhere</a></div>"`
         document.getElementById("Games").appendChild(newElement)

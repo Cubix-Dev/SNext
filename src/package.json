@@ -4,7 +4,8 @@
     "description": "A scratch gaming console",
     "main": "index.js",
     "scripts": {
-        "start": "electron . --no-sandbox"
+        "start": "tsc && electron . --no-sandbox",
+        "clear": "rm *.js"
     },
     "repository": {
         "type": "git",
