@@ -38,7 +38,11 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
     position: relative;
     bottom: 32px;
     left: 18px;
+    color: black;
+    
 }
+
+#back:hover {cursor: pointer;}
 
 .games {
     background-color: var(--games);
