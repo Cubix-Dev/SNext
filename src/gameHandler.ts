@@ -9,11 +9,10 @@ function scanContents() {
     console.log("Welcome to SNext Update Next")
     var files;
     try {
-        files = fs.readdirSync(path.join(__dirname, "games"))
+        files = fs.readdirSync(path.join(__dirname, "games/fetched"))
     } catch (err) {
-        console.log("games doesn't exist, so let's make one!")
-        fs.mkdirSync(path.join(__dirname, "games"));
-        files = fs.readdirSync(path.join(__dirname, "games"))
+        fs.mkdirSync(path.join(__dirname, "games/fetched"));
+        files = fs.readdirSync(path.join(__dirname, "games/fetched"))
     }
 
     if (files.length != 0) {
@@ -56,7 +55,7 @@ function loadGame(params) {
     console.log(params)
     const remote = require('@electron/remote');
     const win = remote.getCurrentWindow();
-    win.loadFile(path.join(__dirname, "games", params))
+    win.loadFile(path.join(__dirname, "games/fetched", params))
 }
 
 module.exports.scanContents = scanContents();
