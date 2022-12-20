@@ -6,5 +6,5 @@ if (dev == null){
 
 // Devmode Toggle
 function devMode() {
-    localStorage.setItem("devMode", localStorage.getItem("devMode") === "true" ? "false" : "true")
+    localStorage.setItem("devMode", dev === "true" ? "false" : "true")
 }

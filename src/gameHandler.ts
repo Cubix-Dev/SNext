@@ -9,11 +9,11 @@ function scanContents() {
     console.log("Welcome to SNext Update Next")
     var files;
     try {
-        files = fs.readdirSync(path.join(__dirname, "myGames"))
+        files = fs.readdirSync(path.join(__dirname, "games"))
     } catch (err) {
-        console.log("myGames doesn't exist, so let's make one!")
-        fs.mkdirSync(path.join(__dirname, "myGames"));
-        files = fs.readdirSync(path.join(__dirname, "myGames"))
+        console.log("games doesn't exist, so let's make one!")
+        fs.mkdirSync(path.join(__dirname, "games"));
+        files = fs.readdirSync(path.join(__dirname, "games"))
     }
 
     if (files.length != 0) {
@@ -31,7 +31,7 @@ function readFile(item) {
     var itemName = path.parse(item).name
     console.log(ext)
     if (ext == "html") {
-        const icon = (path.join(__dirname, "myGames/gameIcons/costume1.png"))
+        const icon = (path.join(__dirname, "games/tempCard.png"))
         // Add a new button with an image if the file is a game.
         var newElement = document.createElement("div")
         newElement.className = "card border border-5"
@@ -56,5 +56,5 @@ function loadGame(params) {
     console.log(params)
     const remote = require('@electron/remote');
     const win = remote.getCurrentWindow();
-    win.loadFile(path.join(__dirname, "myGames", params))
+    win.loadFile(path.join(__dirname, "games", params))
 }

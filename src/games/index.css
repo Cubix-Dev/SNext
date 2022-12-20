@@ -51,14 +51,13 @@ body {margin: 0; padding: 0; font-family: 'M PLUS 1p';
     gap: 20px;
 }
 
-.gamecard {
-    width: 150px;
-    height: 195px;
-    font-size: 18;
-}
-
 .gamecard-img {
-    width: 100%;
+    display: block;
+    max-width: 150px;
+    max-height: 195px;
+    width: auto;
+    height: auto;
+    font-size: 18;
 }
 
 .gamecard-title {
