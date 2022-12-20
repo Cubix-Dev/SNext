@@ -58,3 +58,5 @@ function loadGame(params) {
     const win = remote.getCurrentWindow();
     win.loadFile(path.join(__dirname, "games", params))
 }
+
+module.exports.scanContents = scanContents();

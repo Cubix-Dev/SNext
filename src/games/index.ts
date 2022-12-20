@@ -2,6 +2,7 @@
 const rem = require('@electron/remote');
 const win = rem.getCurrentWindow();
 
+
 function mainmenu() {
     win.loadFile("./index.html")
 }

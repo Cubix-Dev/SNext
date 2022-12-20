@@ -8,6 +8,8 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 const remote = require('@electron/remote/main')
 var mainWindow
 
+// const scan = require("./gameHandler");
+
 const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
@@ -26,7 +28,7 @@ const createWindow = () => {
   //mainWindow.webContents.openDevTools();
   // For downloading games. What should happen is games get downloaded into that myGames folder
   const ses = mainWindow.webContents.session
-  ses.setDownloadPath(path.join(__dirname, "myGames"))
+  ses.setDownloadPath(path.join(__dirname, "games"))
 
   // Dark Mode stuff
   // ipcMain.handle('dark-mode:toggle', () => {
@@ -51,6 +53,7 @@ app.on("ready", () => {
   app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required"); // Make Startup Autoplay Work
   remote.initialize();
   remote.enable(mainWindow.webContents)
+  // scan()
 });
 
 // Quit when all windows are closed, except on macOS. There, it's common
