@@ -30,7 +30,8 @@ function readFile(item) {
     var ext = item.slice((item.lastIndexOf(".") - 1 >>> 0) + 2)
     var itemName = path.parse(item).name
     console.log(ext)
-    if (ext == "html") {
+    if (ext == "html" && item !== "library.html") {
+        console.log(itemName)
         const icon = (path.join(__dirname, "games/tempCard.png"))
         // Add a new button with an image if the file is a game.
         var newElement = document.createElement("div")
