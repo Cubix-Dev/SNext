@@ -1,3 +1,6 @@
 src/node_modules
 src/package-lock.json
 src/dist
+.DS_Store
+src/.DS_Store
+src/games/.DS_Store

@@ -29,7 +29,6 @@ function readFile(item) {
     var item = path.basename(item)
     var ext = item.slice((item.lastIndexOf(".") - 1 >>> 0) + 2)
     var itemName = path.parse(item).name
-    console.log(ext)
     if (ext == "html" && item !== "library.html") {
         console.log(itemName)
         const icon = (path.join(__dirname, "games/tempCard.png"))
