@@ -62,7 +62,7 @@ function newNotif(text) {
 
 // Testing button 
 function devtest(type) {
-    newNotif('')
+    newNotif('Success')
 }
 
 // Tab bar functionality
