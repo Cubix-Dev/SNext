@@ -1,22 +1,48 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta name="viewport" content="width=device.width">
-    <meta charset="utf-16">
-    <link href="/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>SNext</title>
-  </head>
-  <body style="display: block;">
-    <h1>🚀 SNext Next</h1>
-    <p><strong>If you see this window, Electron.js successfully loaded!</strong></p>
-    <button onclick="scanContents()">Test Game Loading</button>
-    <br>
-    <div id="Games">
-        <!--Empty Div for creating new games-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snext CONCEPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main-ui.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="headercontent">
+            <div id="username">
+            <div class="prof-pic"></div>
+            Username#1234
+            </div>
+            <div id="devtest" onclick="devtest(1)">Run Test</div>
+            <div class="time"></div>
+        </div>
+        <div id="headergradient"></div>
+    </header>
+    <div id="tab-bar">
+        <div class="tab" onclick="loadTab(0)">Settings</div>
+        <div class="tab" onclick="loadTab(1)">Friends</div>
+        <div class="tab" onclick="loadTab(2)">Home</div>
+        <div class="tab" onclick="loadTab(3)">Games</div>
+        <div class="tab" onclick="loadTab(4)">Store</div>
     </div>
-  </body>
-  <!--Game Handler-->
-  <script src="./gameHandler.js"></script>
-  <script src="./main.js"></script>
+    <div id="home" class="main-menu">
+        <div id="recent-played">
+        
+        </div>
+        <div id="notification"></div>
+        <div id="notif-icon"></div>
+    </div>
+    <div id="friends" class="main-menu">
+        <div id="friends-list">
+            
+        </div>
+        <div id="friends-options">
+
+        </div>
+    </div>
+    <div id="games" class="main-menu"></div>
+    <div id="settings" class="main-menu"></div>
+    <div id="store" class="main-menu"></div>
+</body>
 </html>
