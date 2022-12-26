@@ -8,7 +8,7 @@ if [ which node > /dev/null ]; then
             echo "Installing Node ..."
             # this part will only work on debian-based distros
             if [ -f "/etc/debian_version" ]; then
-               curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+               curl -sL https://deb.nodesource.com/setup_16.x — Node.js 16 "Gallium" | sudo -E bash -
                sudo apt-get install nodejs -y
                echo "Node has been installed."
                sleep 5
