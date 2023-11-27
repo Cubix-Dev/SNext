@@ -1,8 +1,6 @@
-# 🚀 SNext Next coming soon! Expect:
-- Easy game installs
-- A new fancy UI
-## Join the discord to learn more!
-
+# 🚀 SNext is going to the Infinite Level
+This repository is no longer maintained.
+## Join the discord to learn more about our new project!
 
 <p align="center">
   <img src="https://i.imgur.com/i5CgPuX.png">
